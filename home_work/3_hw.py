@@ -46,6 +46,9 @@ f([-1,-2,-3,-4,-5])
 
 def days(years: int, month: int):
     days_in_years=years*29*12
-    days_in_month=month*29
-    print(days_in_month+days_in_years)
+    if month in range (1,13):
+        days_in_month=month*29
+        print(days_in_month + days_in_years)
+    else:
+        print('введите корректное кол-во месяцев')
 days(20,5)
