@@ -3,7 +3,7 @@ def f(a, b):
         print(a)
     else:
         print(b)
-f(5,25)
+f(76,25)
 
 def fun(x,y):
     if x-y == 135 or y-x == 135:
